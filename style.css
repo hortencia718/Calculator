@@ -2,12 +2,26 @@
 *, *::before, ::after{
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:rgb(34, 20, 221);
 }
 
 
 
+
 body {
-    background-color: rgb(188, 189, 182);
+    background:linear-gradient(to right,#48ff00,rgb(238, 116, 46) ) ;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 /* .container {
