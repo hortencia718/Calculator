@@ -18,7 +18,7 @@ body {
 
 
 
-.calulator-grid {
+.calculator-grid {
     display: grid;
     justify-content: center;
     align-content: center;
@@ -27,7 +27,7 @@ body {
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
-.calulator-grid > button {
+.calculator-grid > button {
     cursor: pointer;
     font-size: 2rem;
     border: 1px solid white;
@@ -35,7 +35,7 @@ body {
     background-color: rgba(149, 255, 244, 0.892);
 }
 
-.calulator-grid > button:hover {
+.calculator-grid > button:hover {
     background-color:rgba(209, 245, 242, 0.9);
 }
 
